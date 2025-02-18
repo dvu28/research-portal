@@ -6,17 +6,17 @@
 
 The portal will be built in React as the frontend and Node.js/Express server as the backend. The portal will also be divided into four different roles with its respective user experience and interactions. These roles will be: General Users, Scientists, Owners, and Stakeholders. 
 
-<ins>Users:</ins> Allows users to search and view datasets, interact with notebooks, access code repos, and other publications. <br>
+**Users:** Allows users to search and view datasets, interact with notebooks, access code repos, and other publications. <br>
 - Their interaction includes, browsing, searching, using the interactive notebook, and viewing content <br>
 
-<ins>Scientists:</ins> Allows scientists to upload, update, and manage materials through secure roles. 
+**Scientists:** Allows scientists to upload, update, and manage materials through secure roles. 
 - A dashboard dedicated for them to upload and manage their materials, which turns into metadata for database purposes 
 - Their interaction includes managing their materials from submitting to viewing their submission status and interacting with the notebooks <br>
 
-<ins>Owners:</ins> Allows owners to management content, update UI, and approve scientist interactions such as submitting materials.
+**Owners:** Allows owners to management content, update UI, and approve scientist interactions such as submitting materials.
 - Their interaction includes admin level managment of the portal with a dedicated dashboard <br>
 
-<ins>Stakeholders:</ins> Dedicated dashboard that highlights funded projects, displays impact metrics (via charts and graphs), and showcases key contributor. <br>
+**Stakeholders:** Dedicated dashboard that highlights funded projects, displays impact metrics (via charts and graphs), and showcases key contributor. <br>
 - Their interaction includes viewing detailed reports or data of a research
 
 insert diagram
