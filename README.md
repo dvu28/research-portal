@@ -17,7 +17,7 @@ The portal will be built in React as the frontend and Node.js/Express server as 
 **Stakeholders:** Dedicated dashboard that highlights funded projects, displays impact metrics (via charts and graphs), and showcases key contributor. 
 - Their interaction includes viewing detailed reports or data of a research
 
-insert diagram
+![my image](https://github.com/dvu28/research-portal/blob/d567a3b93b8e6f46c8e2f74d2658a48f95ea2411/research%20portal%20diagram.png)
 
 ## Technology Choices
 
