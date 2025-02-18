@@ -2,23 +2,41 @@
 
 ## Designing the System
 
-**Front End**
-Technologies: React
+### System Overview
 
-The portal will be divided into four different user experiences with it's own dashboard since there will be different kinds of roles interacting with the portal: General Users, Scientist, Owner, and Stakeholder.
+The portal will be built in React as the frontend and Node.js/Express server as the backend. The portal will also be divided into four different roles with its respective user experience and interactions. These roles will be: General Users, Scientists, Owners, and Stakeholders. 
 
-React will be used to build out the user interface and will leverage React Routers, which will set up client-side navigation. This is how all four different users will be able to interact with the portal
+Users: Allows users to search and view datasets, interact with notebooks, access code repos, and other publications. <br>
+- A generic user dashboard 
+Scientists: Allows scientists to upload, update, and manage materials through secure roles. <br>
+- A dashboard dedicated for them to upload and manage their materials
+Owners: Allows owners to management content, update UI, and approve scientist interactions such as submitting materials. <br>
+- An admin dashbaord to manage the portal
+Stakeholders: Dedicated dashboard that highlights funded projects, displays impact metrics (via charts and graphs), and showcases key contributor. <br>
+- asdfadfa
 
-Our frontend using React will be essentially responsible for taking user interaction of the portal and communicate with the backend with Express API via RESTful endpoints.
+insert diagram
 
-User Dashboard: Allows users to search and view, datasets, interact with notebooks, access code repos, and other publications.
-Scientist Dashboard: Allows scientists to upload, update, and manage materials.
-Owner Dashboard: Allows owners to management content, update UI, and approve submitted research.
-Stakeholder Dashboard: Dedicated section that highlights funded projects, displays impact metrics (via charts and graphs), and showcases key contributor.
+### Technology Choices
+**Front-End:**
+The frontend with React will be responsible for taking user interactions of the portal and communicate that with the backend through the Express server with APIs. 
+Technologies: React (Javascript Framework)
+- Lightweight framework used to build user interface
+- Leverages React Routers, which will set up client-side navigation for users to interact with the portal
 
-**Back End**
+**Back-End:** 
+The backend takes the users interaction and does certain operations depending on how each kind of roles interact with the portal.
 Technologies: Node.js, Express Server, AWS S3, PostgreSQL, JupyterHub
+Node.js with Express Server:
+- Used to build RESTful APIs, which is the Express API gateway
+- This sets up API endpoints to handle each role's interaction such as sending GET request to retrieve publications when a user searches
+- Every interaction with the portal by each role goes through the API layer
 
-The backend will be set up with these specific technologies to handle creating, reading, updating, and deleting resources such as publications, user profiles, and research submissions...also known as CRUD operations. 
+AWS S3:
+- Stores larger files like datasets, publications and code repos
+- A S3 bucket will enable proper access policies
+- Integrated with the backend
 
-This will also utilize API endpoints
+PostgreSQL:
+- Stores structured data such as user profiles, material submissions, etc.
+- The backend communicates with the database for CRUD operations
