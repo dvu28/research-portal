@@ -1,8 +1,6 @@
 # System Design for a Research Portal
 
-## Designing the System
-
-### System Overview
+## System Overview
 
 The portal will be built in React as the frontend and Node.js/Express server as the backend. The portal will also be divided into four different roles with its respective user experience and interactions. These roles will be: General Users, Scientists, Owners, and Stakeholders. 
 
