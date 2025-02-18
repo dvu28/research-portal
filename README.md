@@ -19,7 +19,8 @@ The portal will be built in React as the frontend and Node.js/Express server as 
 
 insert diagram
 
-### Technology Choices
+## Technology Choices
+
 **Front-End:**
 The frontend with React will be responsible for taking user interactions of the portal and communicate that with the backend through the Express server with APIs. <br>
 <br>
