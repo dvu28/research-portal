@@ -19,24 +19,25 @@ insert diagram
 
 ### Technology Choices
 **Front-End:**
-The frontend with React will be responsible for taking user interactions of the portal and communicate that with the backend through the Express server with APIs. 
-Technologies: React (Javascript Framework)
+The frontend with React will be responsible for taking user interactions of the portal and communicate that with the backend through the Express server with APIs. <br>
+Technologies: React <br>
+<ins>React.js (Javascript Framework)</ins>
 - Lightweight framework used to build user interface
 - Leverages React Routers, which will set up client-side navigation for users to interact with the portal
 
 **Back-End:** 
-The backend takes the users interaction and does certain operations depending on how each kind of roles interact with the portal.
-Technologies: Node.js, Express Server, AWS S3, PostgreSQL, JupyterHub
-Node.js with Express Server:
+The backend takes the users interaction and does certain operations depending on how each kind of roles interact with the portal. <br>
+Technologies: Node.js, Express Server, AWS S3, PostgreSQL, JupyterHub <br>
+<ins>Node.js with Express Server:</ins>
 - Used to build RESTful APIs, which is the Express API gateway
 - This sets up API endpoints to handle each role's interaction such as sending GET request to retrieve publications when a user searches
 - Every interaction with the portal by each role goes through the API layer
 
-AWS S3:
+<ins>AWS S3:</ins>
 - Stores larger files like datasets, publications and code repos
 - A S3 bucket will enable proper access policies
 - Integrated with the backend
 
-PostgreSQL:
+<ins>PostgreSQL:</ins>
 - Stores structured data such as user profiles, material submissions, etc.
 - The backend communicates with the database for CRUD operations
