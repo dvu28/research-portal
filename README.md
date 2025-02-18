@@ -29,7 +29,7 @@ The frontend with React will be responsible for taking user interactions of the 
 - Leverages React Routers, which will set up client-side navigation for users to interact and navigate through screens of the portal
 
 **Back-End:** 
-The backend takes the users interaction and does certain operations depending on how each kind of roles interact with the portal. This is also known as CRUD. Create, Read, Update, and Delete.<br>
+The backend takes the users interaction and does certain operations depending on how each kind of roles interact with the portal. This also includes CRUD operations: Create, Read, Update, and Delete. Integration of API's play a huge part as it is the instructions of how the portal will work. The server will be repsonsible for operations such as security, uploaded/downloaded materials, launching notebook sessions, CRUD and serving specific data for stakeholders. <br>
 <br>
 <ins>Node.js with Express Server:</ins>
 - Used to build RESTful APIs, which is the Express API gateway
