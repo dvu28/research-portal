@@ -54,6 +54,7 @@ The backend takes the users interaction and does certain operations depending on
 ## Timeline & Resources
 
 8‑Week Timeline & Resources
+
 <ins>Week 1-2: Requirements, Design and Planning:</ins>
 - Product Manager: Meet stakeholder and possible representives to discuss needs/goals, establish Aglie/Scrum/SDLC, and floats around entire project
 - System Architect and Lead Engineer: Develop system design and finalize tech stack
