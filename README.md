@@ -5,16 +5,16 @@
 The portal will be built in React as the frontend and Node.js/Express server as the backend. It will also be divided into four different roles with its respective user experience and interactions. These roles will be: General Users, Scientists, Owners, and Stakeholders. 
 
 **Users:** Allows users to search and view datasets, interact with notebooks, access code repos, and other publications.
-- Their interaction includes, browsing, searching, using the interactive notebook, and viewing content 
+- Their interaction includes browsing, searching, using the interactive notebook, and viewing content 
 
 **Scientists:** Allows scientists to upload, update, and manage materials through secure roles. 
 - A dashboard dedicated for them to upload and manage their materials, which turns into metadata for database purposes 
 - Their interaction includes managing their materials from submitting to viewing their submission status and interacting with the notebooks
 
-**Owners:** Allows owners to management content, update UI, and approve scientist interactions such as submitting materials.
-- Their interaction includes admin level managment of the portal with a dedicated dashboard 
+**Owners:** Allows owners to management content, update UI, and approve scientist interactions such as submitted materials.
+- Their interaction includes admin level management of the portal with a dedicated dashboard 
 
-**Stakeholders:** Dedicated dashboard that highlights funded projects, displays impact metrics (via charts and graphs), and showcases key contributor. 
+**Stakeholders:** Dedicated dashboard that highlights funded projects, displays impact metrics (via charts and graphs), and showcases key contributors. 
 - Their interaction includes viewing detailed reports or data of a research
 
 ![my image](https://github.com/dvu28/research-portal/blob/d567a3b93b8e6f46c8e2f74d2658a48f95ea2411/research%20portal%20diagram.png)
@@ -75,7 +75,7 @@ The backend takes the users interaction and does certain operations depending on
 <ins>Week 6: Integration and Initial Testing:</ins>
 - Frontend and Backend Engineer: Integrate API endpoints with the React application
 - UI/UX Designer: Iterate on design based on user interactions and feedback
-- DevOps Engineer: Validate that role-based access and data flows meet security standards 
+- DevOps Engineer: Validate that role-based access and data meet security standards
 
 <ins>Week 7: Comprehensive Testing & Quality Assurance:</ins>
 - QA Team: Run automated and manual tests and report bugs
@@ -85,7 +85,7 @@ The backend takes the users interaction and does certain operations depending on
 <ins>Week 8: Deployment, Launch, and Post-Launch Preparation:</ins>
 - DevOps Engineer: Handle containerization, production environment setup, and deploy portal to production
 - Frontend and Backend Engineers: Provide final adjustments and ensure a smooth rollout
-- Project Manager: Oversee the launch process and coordinate post-launch support
+- Project Manager: Oversee the launch and coordinate post-launch support
 - Support Team: Ready to monitor and resolve issues after launch
 
 ## Risk Assessment
@@ -94,7 +94,7 @@ Two crucial risk that would impact the project the most would be security and de
 
 <ins>Security Risk:</ins>
 - The nature of the project requires robust authentication system
-- Data is at risk especially if data is sensitive from researches
+- Data can be at risk especially if data is sensitive from researches
 - Unauthorize access can lead to open ended risks
 
 <ins>Security Mitigation:</ins>
@@ -103,7 +103,7 @@ Two crucial risk that would impact the project the most would be security and de
 - Encryption for all data in transit 
 
 <ins>Developemt Delay Risk:</ins>
-- Unforseeable challenegs can always arise
+- Unforseeable challenges can always arise
 - Combined roles can lead to work overload
 
 <ins>Development Delay Mitigation:</ins>
