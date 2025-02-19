@@ -54,34 +54,34 @@ The backend takes the users interaction and does certain operations depending on
 ## Timeline & Resources
 
 8‑Week Timeline & Resources
-<ins>Week 1-2: Requirements, Design and Planning</ins>
+<ins>Week 1-2: Requirements, Design and Planning:</ins>
 - Product Manager: Meet stakeholder and possible representives to discuss needs/goals, establish Aglie/Scrum/SDLC, and floats around entire project
 - System Architect and Lead Engineer: Develop system design and finalize tech stack
 - UI/UX Designer: Ideate wireframes and design
 
-<ins>Week 2-3: Environment Setup and Project Kickoff</ins>
+<ins>Week 2-3: Environment Setup and Project Kickoff:</ins>
 - DevOps Engineer: Configure CI/CD, local environments, and basic infrastructure.
 - Backend and Frontend Engineers: Begin familiarization with the project structure and initial development tools/environment
 - System Architect: Oversee integration of the system design with technical setup from DevOps
 - UI/UX Designer: Finalize UI Design and prototype
 
-<ins>Week 3-5: Concurrent Backend & Frontend Development</ins>
+<ins>Week 3-5: Concurrent Backend & Frontend Development:</ins>
 - Backend Engineers: Focus on APIs, Express server, authentication, and all service integrations
 - Frontend Engineers: Focus on all UI components for each of the roles
 - UI/UX Designer: Hand off work and provide continuous design refinements if needed
 
 
-<ins>Week 6: Integration and Initial Testing</ins>
+<ins>Week 6: Integration and Initial Testing:</ins>
 - Frontend and Backend Engineer: Integrate API endpoints with the React application
 - UI/UX Designer: Iterate on design based on user interactions and feedback
 - DevOps Engineer: Validate that role-based access and data flows meet security standards 
 
-<ins>Week 7: Comprehensive Testing & Quality Assurance</ins>
+<ins>Week 7: Comprehensive Testing & Quality Assurance:</ins>
 - QA Team: Run automated and manual tests and report bugs
 - Frontend and Backend Engineers: Address issues as they arise
 - Stakeholder Reps: Provide feedback on usability and validate that the portal meets requirements with possible early users
 
-<ins>Week 8: Deployment, Launch, and Post-Launch Preparation</ins>
+<ins>Week 8: Deployment, Launch, and Post-Launch Preparation:</ins>
 - DevOps Engineer: Handle containerization, production environment setup, and deploy portal to production
 - Frontend and Backend Engineers: Provide final adjustments and ensure a smooth rollout
 - Project Manager: Oversee the launch process and coordinate post-launch support
@@ -91,20 +91,20 @@ The backend takes the users interaction and does certain operations depending on
 
 Two crucial risk that would impact the project the most would be security and development delays.
 
-<ins>Security Risk</ins>
+<ins>Security Risk:</ins>
 - The nature of the project requires robust authentication system
 - Data is at risk especially if data is sensitive from researches
 - Unauthorize access can lead to open ended risks
 
-<ins>Security Mitigation</ins>
+<ins>Security Mitigation:</ins>
 - Regular security measurements such as code reviews, vulnerability assessments, or even pen testing
 - Implement security measurements such as JWT Auth
 - Encryption for all data in transit 
 
-<ins>Developemt Delay Risk</ins>
+<ins>Developemt Delay Risk:</ins>
 - Unforseeable challenegs can always arise
 - Combined roles can lead to work overload
 
-<ins>Development Delay Mitigation</ins>
+<ins>Development Delay Mitigation:</ins>
 - Agile methodology with recurring sprint meetings will allow the team to address those challanges and always be aligned with the progress
 - Divide up the roles by utilizing more specialized roles
